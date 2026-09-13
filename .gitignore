@@ -1,0 +1,45 @@
+# Build products and CMake state
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Plugin/application binaries
+*.component
+*.vst3
+*.vst
+*.aaxplugin
+*.app
+*.dmg
+*.pkg
+*.zip
+*.a
+*.o
+*.dylib
+
+# Local editor and OS state
+.DS_Store
+.idea/
+.vscode/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.user
+*.suo
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+
+# Logs, crash reports, and temporary files
+*.log
+*.ips
+*.crash
+tmp_rovodev_*
