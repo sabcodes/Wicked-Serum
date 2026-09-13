@@ -1,13 +1,15 @@
 # Wicked Serum
 
-**A modern, source-available wavetable synthesizer built for sound designers, producers, and Logic Pro users.**
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
+
+**A modern, open-source wavetable synthesizer built for sound designers, producers, and Logic Pro users.**
 
 Wicked Serum turns a familiar Serum-inspired workflow into a hackable JUCE instrument: morph between wavetable frames, stack wide unison voices, draw your own waveforms, route animated modulation, shape the result with filters and effects, and turn held chords into tempo-locked patterns.
 
 It is designed to be immediately musical while remaining approachable for developers who want to learn how a real-time software synthesizer works.
 
 > [!IMPORTANT]
-> Wicked Serum is an independent source-available project. It is not affiliated with, endorsed by, or a replacement for Xfer Records or Serum. “Serum” is referenced only to describe the workflow that inspired this project. Wicked Serum does not load Serum presets and does not copy Serum code or factory content.
+> Wicked Serum is an independent open-source project licensed under AGPL-3.0-only. It is not affiliated with, endorsed by, or a replacement for Xfer Records or Serum. “Serum” is referenced only to describe the workflow that inspired this project. Wicked Serum does not load Serum presets and does not copy Serum code or factory content.
 
 ## Why Wicked Serum?
 
@@ -415,9 +417,15 @@ Useful contribution areas include:
 
 Before opening a pull request, build the affected target and run `SerumSynthFeatureTests`.
 
-## Source and licensing
+## License
 
-The code is publicly inspectable and intended for learning and continued development. A formal license file has not yet been selected; until one is added, standard copyright rules apply. JUCE is included as a submodule and remains subject to its own licensing terms.
+Wicked Serum is licensed under the **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`). See [LICENSE](LICENSE) for the complete terms.
+
+You may use, study, modify, and redistribute the project under the AGPL. If you distribute a modified version—or make a modified version available for users to interact with over a network—you must provide the corresponding source code under the same license and preserve the required notices.
+
+JUCE is included as a submodule and remains subject to its own licensing terms. The current public build uses JUCE under its AGPL option. A proprietary distribution would require an appropriate JUCE commercial license and separate permission for Wicked Serum code; changing JUCE licensing alone does not relicense this project.
+
+This summary is provided for convenience and is not legal advice. The full [AGPL-3.0-only text](LICENSE) controls.
 
 ---
 
